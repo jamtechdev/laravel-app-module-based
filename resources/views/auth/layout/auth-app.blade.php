@@ -13,9 +13,9 @@
       <div class="col-12 p-0">
         <div class="login-card login-dark">
           <div>
-              <a class="logo" href="index.html">
-                <img class="img-fluid for-light m-auto" src="../assets/images/logo/logo1.png" alt="looginpage">
-                <img class="img-fluid for-dark" src="../assets/images/logo/logo-dark.png" alt="logo">
+              <a class="logo" href="{{route('home.index')}}">
+                <img class="img-fluid for-light m-auto" src="{{asset('assets/images/logo/logo1.png')}}" alt="looginpage">
+                <img class="img-fluid for-dark" src="{{asset('assets/images/logo/logo-dark.png')}}" alt="logo">
               </a>
             @yield('content')
           </div>
