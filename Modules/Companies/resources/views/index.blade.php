@@ -6,7 +6,7 @@
         <div class="page-title">
             <div class="row">
                 <div class="col-sm-6 col-12">
-                    <h2>Basic DataTables: {!! config('package.name') !!}</h2>
+                    <h2>Basic DataTables: companies</h2>
                 </div>
                 <!-- <div class="col-sm-6 col-12">
                     <ol class="breadcrumb">

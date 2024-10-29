@@ -12,8 +12,8 @@
         @include('panel.layout.partials.header')
         <div class="page-body-wrapper">
             @include('panel.layout.partials.sidebar')
-            @include('panel.layout.partials.footer')
             @yield('content')
+            @include('panel.layout.partials.footer')
 
         </div>
     </div>

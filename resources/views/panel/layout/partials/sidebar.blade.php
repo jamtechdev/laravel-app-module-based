@@ -24,7 +24,21 @@
                     <li> <a href="dashboard-03.html">Education</a></li>
                 </ul>
             </li>
-            <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+            <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="{{route('packages.index')}}">
+                    <svg class="stroke-icon">
+                        <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Paper"></use>
+                    </svg>
+                    <h6 class="f-w-600">Packages </h6>
+                </a>
+            </li>
+                <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="{{route('companies.index')}}">
+                    <svg class="stroke-icon">
+                        <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Paper"></use>
+                    </svg>
+                    <h6 class="f-w-600">Companies </h6>
+                </a>
+            </li>
+            <!-- <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Pie"></use>
                     </svg>
@@ -75,7 +89,7 @@
                     </svg>
                     <h6 class="f-w-600">Kanban board</h6>
                 </a></li>
-            <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Bag"></use>
                     </svg>
@@ -523,7 +537,7 @@
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Ticket"></use>
                     </svg>
                     <h6 class="f-w-600">Support Ticket</h6>
-                </a></li>
+                </a></li> -->
         </ul>
     </div>
     <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>

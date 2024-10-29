@@ -29,3 +29,4 @@
 <!-- App css -->
 <link rel="stylesheet" href="{{asset('assets/css/style.css')}}" />
 <link id="color" rel="stylesheet" href="{{asset('assets/css/color-1.css')}}" media="screen" />
+<link id="color" rel="stylesheet" href="{{asset('assets/css/vendors/datatables.css')}}" media="screen" />
