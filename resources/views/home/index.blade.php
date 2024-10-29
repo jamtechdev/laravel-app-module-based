@@ -71,7 +71,7 @@
                     Us</a></li>
               </ul>
               <div class="buy-block"><a class="btn-header btn btn-primary"
-                  href="https://themeforest.net/user/pixelstrap/portfolio" target="_blank">Login</a>
+                  href="{{route('login')}}">Login</a>
                 <div class="toggle-menu"><i class="fa-solid fa-bars"></i></div>
               </div>
             </nav>
