@@ -28,11 +28,12 @@
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Pie"></use>
                     </svg>
-                    <h6 class="lan-2">Widgets </h6><i class="iconly-Arrow-Right-2 icli"></i>
+                    <h6 class="lan-2">User Management </h6><i class="iconly-Arrow-Right-2 icli"></i>
                 </a>
                 <ul class="sidebar-submenu">
-                    <li> <a href="general-widget.html">General</a></li>
-                    <li><a href="chart-widget.html">Chart</a></li>
+                    <li> <a href="general-widget.html">Users</a></li>
+                    <li><a href="chart-widget.html">Roles</a></li>
+                    <li><a href="chart-widget.html">Permissions</a></li>
                 </ul>
             </li>
             <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
@@ -47,7 +48,7 @@
                     <li> <a href="layout-dark.html">Dark</a></li>
                 </ul>
             </li>
-            <li class="sidebar-main-title">
+            <!-- <li class="sidebar-main-title">
                 <div>
                     <h5 class="f-w-700 sidebar-title pt-3">Application</h5>
                 </div>
@@ -523,7 +524,7 @@
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Ticket"></use>
                     </svg>
                     <h6 class="f-w-600">Support Ticket</h6>
-                </a></li>
+                </a></li> -->
         </ul>
     </div>
     <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
