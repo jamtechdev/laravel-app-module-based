@@ -27619,7 +27619,7 @@ input::-webkit-inner-spin-button {
   color: var(--body-font-color);
 }
 .page-sidebar .sidebar-link svg {
-  width: 18px;
+  width: 0px;
   height: 18px;
   stroke: var(--body-font-color);
   transition: 0.5s all;

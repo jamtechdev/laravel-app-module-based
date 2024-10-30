@@ -12,7 +12,11 @@
         @include('panel.layout.partials.header')
         <div class="page-body-wrapper">
             @include('panel.layout.partials.sidebar')
-            @yield('content')
+            
+            <div class="page-body">
+                @include('components.page-header')
+                @yield('content')
+            </div>
             @include('panel.layout.partials.footer')
 
         </div>

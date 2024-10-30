@@ -8,13 +8,13 @@
         <div class="row">
             <div class="col-sm-12 col-12">
                 <div class="card-header card-no-border james">
-                    <h3>Role List</h3>
+                    <h3>@yield('title', '')</h3>
                     <div class="breadcrumb d-flex align-items-center  ">
                         <a href="{{ route('home.index') }}" class="au-btn--green me-2">Home</a>
                         <span>/</span>
-                        <span href="" class="au-btn--green mx-2">User Management</span>
+                        <span href="" class="au-btn--green mx-2">@yield('page1', '')</span>
                         <span>/</span>
-                        <span class="au-btn--green mx-2">Users</span>
+                        <span class="au-btn--green mx-2">@yield('page2', '')</span>
                     </div>
                 </div>
             </div>

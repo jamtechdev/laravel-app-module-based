@@ -21,6 +21,7 @@
 <link rel="stylesheet" href="{{asset('assets/css/themify.css')}}" />
 <!--fontawesome-->
 <link rel="stylesheet" href="{{asset('assets/css/fontawesome-min.css')}}" />
+<link rel="stylesheet" href="{{asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')}}" />
 <!-- Whether Icon css-->
 <link rel="stylesheet" type="text/css" href="{{asset('assets/css/vendors/weather-icons/weather-icons.min.css')}}" />
 <link rel="stylesheet" type="text/css" href="{{asset('assets/css/vendors/scrollbar.css')}}" />
@@ -30,3 +31,4 @@
 <link rel="stylesheet" href="{{asset('assets/css/style.css')}}" />
 <link id="color" rel="stylesheet" href="{{asset('assets/css/color-1.css')}}" media="screen" />
 <link id="color" rel="stylesheet" href="{{asset('assets/css/vendors/datatables.css')}}" media="screen" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css" integrity="sha512-6p+GTq7fjTHD/sdFPWHaFoALKeWOU9f9MPBoPnvJEWBkGS4PKVVbCpMps6IXnTiXghFbxlgDE8QRHc3MU91lJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />

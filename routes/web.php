@@ -25,3 +25,4 @@ Route::get('/', [HomeController::class, 'index'])->name('home.index');
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard.index');
 Route::resource('users', UserController::class);
 Route::resource('roles', RoleController::class);
+Route::resource('permissions', RoleController::class);

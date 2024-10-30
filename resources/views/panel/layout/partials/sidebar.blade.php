@@ -1,3 +1,10 @@
+<style>
+    .sidebar-icon{
+        position: absolute;
+    right: 15px;
+    }
+</style>
+
 <aside class="page-sidebar">
     <div class="left-arrow" id="left-arrow"><i data-feather="arrow-left"></i></div>
     <div class="main-sidebar" id="main-sidebar">
@@ -16,31 +23,31 @@
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Home-dashboard"></use>
                     </svg>
-                    <h6>Dashboards</h6><span class="badge">3</span><i class="iconly-Arrow-Right-2 icli"></i>
+                    <h6>Dashboards</h6><i class="ri-arrow-right-line sidebar-icon"></i></i>
                 </a>
                 <ul class="sidebar-submenu">
                     <li> <a href="{{route('dashboard.index')}}">Default</a></li>
-                    <li><a href="dashboard-02.html">Ecommerce </a></li>
-                    <li> <a href="dashboard-03.html">Education</a></li>
+                    <li><a href="{{route('dashboard.index')}}">Ecommerce </a></li>
+                    <li> <a href="{{route('dashboard.index')}}">Education</a></li>
                 </ul>
             </li>
             <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Pie"></use>
                     </svg>
-                    <h6 class="lan-2">User Management </h6><i class="iconly-Arrow-Right-2 icli"></i>
+                    <h6 class="lan-21">User Management </h6><i class="ri-arrow-right-line sidebar-icon"></i>
                 </a>
                 <ul class="sidebar-submenu">
-                    <li> <a href="general-widget.html">Users</a></li>
-                    <li><a href="chart-widget.html">Roles</a></li>
-                    <li><a href="chart-widget.html">Permissions</a></li>
+                    <li> <a href="{{route('users.index')}}">Users</a></li>
+                    <li><a href="{{route('roles.index')}}">Roles</a></li>
+                    <li><a href="{{route('permissions.index')}}">Permissions </a></li>
                 </ul>
             </li>
             <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Document"></use>
                     </svg>
-                    <h6 class="lan-3">Page layout</h6><i class="iconly-Arrow-Right-2 icli"> </i>
+                    <h6 class="lan-3">Page layout</h6><i class="ri-arrow-right-line sidebar-icon"></i>
                 </a>
                 <ul class="sidebar-submenu">
                     <li> <a href="box-layout.html">Box Layout</a></li>
@@ -57,7 +64,7 @@
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Info-circle"></use>
                     </svg>
-                    <h6 class="f-w-600">Project</h6><i class="iconly-Arrow-Right-2 icli"></i>
+                    <h6 class="f-w-600">Project</h6><i class="ri-arrow-right-line"></i></i>
                 </a>
                 <ul class="sidebar-submenu">
                     <li> <a href="project-list.html">Project list </a></li>
@@ -80,7 +87,7 @@
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Bag"></use>
                     </svg>
-                    <h6 class="f-w-600">Ecommerce</h6><i class="iconly-Arrow-Right-2 icli"> </i>
+                    <h6 class="f-w-600">Ecommerce</h6><i class="ri-arrow-right-line"></i>
                 </a>
                 <ul class="sidebar-submenu">
                     <li> <a href="add-products.html">Add Products</a></li>
@@ -90,7 +97,7 @@
                     <li> <a href="list-products.html">Product list</a></li>
                     <li> <a href="payment-details.html">Payment Details</a></li>
                     <li> <a href="order-history.html">Order History</a></li>
-                    <li><a class="submenu-title" href="javascript:void(0)">Invoices<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <li><a class="submenu-title" href="javascript:void(0)">Invoices<i class="ri-arrow-right-line"></i></a>
                         <ul class="according-submenu">
                             <li> <a href="invoices-1.html">Invoices 1</a></li>
                             <li> <a href="invoices-2.html">Invoices 2</a></li>
@@ -116,7 +123,7 @@
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Chat"></use>
                     </svg>
-                    <h6 class="f-w-600">Chat</h6><i class="iconly-Arrow-Right-2 icli"> </i>
+                    <h6 class="f-w-600">Chat</h6><i class="ri-arrow-right-line"></i>
                 </a>
                 <ul class="sidebar-submenu">
                     <li> <a href="private-chat.html">Private Chat</a></li>
@@ -127,7 +134,7 @@
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Profile"></use>
                     </svg>
-                    <h6 class="f-w-600">Users</h6><i class="iconly-Arrow-Right-2 icli"> </i>
+                    <h6 class="f-w-600">Users</h6><i class="ri-arrow-right-line"></i>
                 </a>
                 <ul class="sidebar-submenu">
                     <li> <a href="user-profile.html">Users Profile</a></li>
@@ -192,7 +199,7 @@
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Folder"></use>
                     </svg>
-                    <h6 class="f-w-600">Ui Kits</h6><i class="iconly-Arrow-Right-2 icli"> </i>
+                    <h6 class="f-w-600">Ui Kits</h6><i class="ri-arrow-right-line"></i>
                 </a>
                 <ul class="sidebar-submenu">
                     <li> <a href="typography.html">Typography</a></li>
@@ -215,7 +222,7 @@
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Ticket-star"></use>
                     </svg>
-                    <h6 class="f-w-600">Bonus Ui</h6><i class="iconly-Arrow-Right-2 icli"></i>
+                    <h6 class="f-w-600">Bonus Ui</h6><i class="ri-arrow-right-line"></i></i>
                 </a>
                 <ul class="sidebar-submenu">
                     <li><a href="scrollable.html">Scrollable</a></li>
@@ -242,7 +249,7 @@
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Category"></use>
                     </svg>
-                    <h6 class="f-w-600">Animation </h6><i class="iconly-Arrow-Right-2 icli"></i>
+                    <h6 class="f-w-600">Animation </h6><i class="ri-arrow-right-line"></i></i>
                 </a>
                 <ul class="sidebar-submenu">
                     <li> <a href="AOS.html">aos</a></li>
@@ -253,7 +260,7 @@
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Activity"></use>
                     </svg>
-                    <h6 class="f-w-600">Icon</h6><i class="iconly-Arrow-Right-2 icli"></i>
+                    <h6 class="f-w-600">Icon</h6><i class="ri-arrow-right-line"></i></i>
                 </a>
                 <ul class="sidebar-submenu">
                     <li><a href="font-awesome.html">Fontawesome icon</a></li>
@@ -266,7 +273,7 @@
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Chart"></use>
                     </svg>
-                    <h6 class="f-w-600">Charts</h6><i class="iconly-Arrow-Right-2 icli"></i>
+                    <h6 class="f-w-600">Charts</h6><i class="ri-arrow-right-line"></i></i>
                 </a>
                 <ul class="sidebar-submenu">
                     <li><a href="echarts.html">Echarts</a></li>
@@ -290,10 +297,10 @@
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Filter"></use>
                     </svg>
-                    <h6 class="f-w-600">Forms</h6><i class="iconly-Arrow-Right-2 icli"> </i>
+                    <h6 class="f-w-600">Forms</h6><i class="ri-arrow-right-line"></i>
                 </a>
                 <ul class="sidebar-submenu">
-                    <li><a class="submenu-title" href="javascript:void(0)">form-control<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <li><a class="submenu-title" href="javascript:void(0)">form-control<i class="ri-arrow-right-line"></i></a>
                         <ul class="according-submenu">
                             <li> <a href="base-input.html">Base input</a></li>
                             <li> <a href="form-validation.html">Form validation</a></li>
@@ -303,7 +310,7 @@
                             <li> <a href="megaoptions.html">Mega Options </a></li>
                         </ul>
                     </li>
-                    <li><a class="submenu-title" href="javascript:void(0)">Form Widgets<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <li><a class="submenu-title" href="javascript:void(0)">Form Widgets<i class="ri-arrow-right-line"></i></a>
                         <ul class="according-submenu">
                             <li> <a href="datepicker.html">Datepicker</a></li>
                             <li> <a href="touchspin.html">Touchspin</a></li>
@@ -313,7 +320,7 @@
                             <li> <a href="clipboard.html">Clipboard</a></li>
                         </ul>
                     </li>
-                    <li><a class="submenu-title" href="javascript:void(0)">Form Layout<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <li><a class="submenu-title" href="javascript:void(0)">Form Layout<i class="ri-arrow-right-line"></i></a>
                         <ul class="according-submenu">
                             <li> <a href="form-wizard.html">Form wizard 1</a></li>
                             <li> <a href="form-wizard-two.html">Form wizard 2</a></li>
@@ -326,16 +333,16 @@
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Edit-line"></use>
                     </svg>
-                    <h6 class="f-w-600">Tables</h6><i class="iconly-Arrow-Right-2 icli"> </i>
+                    <h6 class="f-w-600">Tables</h6><i class="ri-arrow-right-line"></i>
                 </a>
                 <ul class="sidebar-submenu">
-                    <li><a class="submenu-title" href="javascript:void(0)">Bootstrap Tables<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <li><a class="submenu-title" href="javascript:void(0)">Bootstrap Tables<i class="ri-arrow-right-line"></i></a>
                         <ul class="according-submenu">
                             <li> <a href="basic-table.html">Basic Tables</a></li>
                             <li> <a href="table-components.html">Table components</a></li>
                         </ul>
                     </li>
-                    <li><a class="submenu-title" href="javascript:void(0)">Data Tables<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <li><a class="submenu-title" href="javascript:void(0)">Data Tables<i class="ri-arrow-right-line"></i></a>
                         <ul class="according-submenu">
                             <li> <a href="datatable-basic-init.html">Basic Init</a></li>
                             <li> <a href="datatable-advance.html">Advance Init</a></li>
@@ -380,10 +387,10 @@
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Password"></use>
                     </svg>
-                    <h6 class="f-w-600">Others</h6><i class="iconly-Arrow-Right-2 icli"> </i>
+                    <h6 class="f-w-600">Others</h6><i class="ri-arrow-right-line"></i>
                 </a>
                 <ul class="sidebar-submenu">
-                    <li><a class="submenu-title" href="javascript:void(0)">Error Page<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <li><a class="submenu-title" href="javascript:void(0)">Error Page<i class="ri-arrow-right-line"></i></a>
                         <ul class="according-submenu">
                             <li> <a href="error-page1.html">Error page 1</a></li>
                             <li> <a href="error-page2.html">Error page 2</a></li>
@@ -393,7 +400,7 @@
                             <li> <a href="error-page6.html">Error page 6</a></li>
                         </ul>
                     </li>
-                    <li><a class="submenu-title" href="javascript:void(0)"> Authentication<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <li><a class="submenu-title" href="javascript:void(0)"> Authentication<i class="ri-arrow-right-line"></i></a>
                         <ul class="according-submenu">
                             <li> <a href="login.html" target="_blank">Login Simple</a></li>
                             <li> <a href="login_one.html" target="_blank">Login with bg image</a></li>
@@ -411,14 +418,14 @@
                             <li> <a href="maintenance.html">Maintenance</a></li>
                         </ul>
                     </li>
-                    <li><a class="submenu-title" href="javascript:void(0)">Coming Soon<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <li><a class="submenu-title" href="javascript:void(0)">Coming Soon<i class="ri-arrow-right-line"></i></a>
                         <ul class="according-submenu">
                             <li> <a href="comingsoon.html">Coming Simple</a></li>
                             <li> <a href="comingsoon-bg-video.html">Coming with Bg video</a></li>
                             <li> <a href="comingsoon-bg-img.html">Coming with Bg Image</a></li>
                         </ul>
                     </li>
-                    <li><a class="submenu-title" href="javascript:void(0)">Email templates<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <li><a class="submenu-title" href="javascript:void(0)">Email templates<i class="ri-arrow-right-line"></i></a>
                         <ul class="according-submenu">
                             <li> <a href="basic-template.html">Basic Email</a></li>
                             <li> <a href="email-header.html">Basic With Header</a></li>
@@ -439,7 +446,7 @@
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Gallery"></use>
                     </svg>
-                    <h6 class="f-w-600">Gallery </h6><i class="iconly-Arrow-Right-2 icli"></i>
+                    <h6 class="f-w-600">Gallery </h6><i class="ri-arrow-right-line"></i></i>
                 </a>
                 <ul class="sidebar-submenu">
                     <li> <a href="gallery.html">Gallery Grid</a></li>
@@ -453,7 +460,7 @@
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Game"></use>
                     </svg>
-                    <h6 class="f-w-600">Blog </h6><i class="iconly-Arrow-Right-2 icli"></i>
+                    <h6 class="f-w-600">Blog </h6><i class="ri-arrow-right-line"></i></i>
                 </a>
                 <ul class="sidebar-submenu">
                     <li> <a href="blog.html">Blog Details</a></li>
@@ -471,7 +478,7 @@
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Filter-2"></use>
                     </svg>
-                    <h6 class="f-w-600">Job Search </h6><i class="iconly-Arrow-Right-2 icli"></i>
+                    <h6 class="f-w-600">Job Search </h6><i class="ri-arrow-right-line"></i></i>
                 </a>
                 <ul class="sidebar-submenu">
                     <li> <a href="job-cards-view.html">Card view</a></li>
@@ -484,7 +491,7 @@
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Work"></use>
                     </svg>
-                    <h6 class="f-w-600">Learning</h6><i class="iconly-Arrow-Right-2 icli"></i>
+                    <h6 class="f-w-600">Learning</h6><i class="ri-arrow-right-line"></i></i>
                 </a>
                 <ul class="sidebar-submenu">
                     <li> <a href="learning_list_visit.html">Learning List</a></li>
@@ -495,7 +502,7 @@
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Discovery"></use>
                     </svg>
-                    <h6 class="f-w-600">Maps</h6><i class="iconly-Arrow-Right-2 icli"></i>
+                    <h6 class="f-w-600">Maps</h6><i class="ri-arrow-right-line"></i></i>
                 </a>
                 <ul class="sidebar-submenu">
                     <li> <a href="data-map.html">Data Map</a></li>
@@ -506,7 +513,7 @@
                     <svg class="stroke-icon">
                         <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Shield"></use>
                     </svg>
-                    <h6 class="f-w-600">Editors</h6><i class="iconly-Arrow-Right-2 icli"></i>
+                    <h6 class="f-w-600">Editors</h6><i class="ri-arrow-right-line"></i></i>
                 </a>
                 <ul class="sidebar-submenu">
                     <li> <a href="quilleditor.html">Quill editor</a></li>

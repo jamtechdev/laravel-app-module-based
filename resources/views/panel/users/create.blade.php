@@ -1,16 +1,12 @@
 @extends('panel.layout.panel-app')
 
-@section('title', 'Role List')
-@section('page1', 'User Management')
-@section('page2', 'Roles')
 @section('content')
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-12">
             <div class="card">
-                <div class="card-header pb-0 card-no-border">
-                    <h3>Roles</h3>
-                </div>
+                <h5 class="pb-0 card-no-border card-header d-flex align-items-center justify-content-between">Users <a
+                        href="{{ route('users.create') }}" class="au-btn--green m-b-9">Add</a></h5>
                 <div class="card-body">
                     <div class="table-responsive">
                         <table class="display" id="basic-1">
