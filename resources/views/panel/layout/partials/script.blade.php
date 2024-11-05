@@ -1,5 +1,4 @@
-<!-- jquery-->
-<script src="{{asset('assets/js/vendors/jquery/jquery.min.js')}}"></script>
+
 <!-- bootstrap js-->
 <script src="{{asset('assets/js/vendors/bootstrap/dist/js/bootstrap.bundle.min.js')}}"></script>
 <script src="{{asset('assets/js/vendors/bootstrap/dist/js/popper.min.js')}}"></script>
@@ -41,3 +40,5 @@
 <script src="{{asset('assets/js/dashboard/dashboard_1.js')}}"></script>
 <!-- custom script -->
 <script src="{{asset('assets/js/script.js')}}"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>

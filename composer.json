@@ -9,6 +9,7 @@
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
         "santigarcor/laratrust": "^8.3",
+        "yajra/laravel-datatables": "^11.0",
         "yoeunes/toastr": "^3.1"
     },
     "require-dev": {
@@ -25,7 +26,10 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
-        }
+        },
+        "files": [
+            "app/Helpers/TimeHelper.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
